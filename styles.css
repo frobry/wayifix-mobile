@@ -309,6 +309,11 @@ header nav ul li a {
   text-decoration: none;
 }
 
+.button-a-text b {
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  text-decoration: none;
+
 .avis {
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
