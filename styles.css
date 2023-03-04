@@ -174,9 +174,8 @@ header {
 /* Mise en forme générale */
 body {
   font-family: arial, sans-serif;
-  background-color: rgb(0, 35, 45);
+  background-color: rgb(0, 0, 0);
   color: #fff;
-  background-image: url(background.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
