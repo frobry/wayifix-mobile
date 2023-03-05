@@ -408,22 +408,6 @@ main {
   margin-bottom: -40px;
 }
 
-.menu5 {
-  display: block;
-  position: relative;
-  text-align: left; /* Centre le message */
-  background-color: rgb(30, 30, 30);
-  padding: 60px; /* Ajoute de l'espace autour du message */
-  padding-bottom: 500px;
-  font-size: 35px;
-  margin-left: -28;
-  margin-right: -28;
-  margin-top: 40px;
-  text-decoration: none;
-  color: white;
-  margin-bottom: -40px;
-}
-
 .price-section {
   width: 700px;
   height: 254px;
