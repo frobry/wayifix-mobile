@@ -354,6 +354,10 @@ main {
   margin-top: -80px;
 }
 
+main h1 {
+  font-family: Orkney, sans-serif;
+}
+
 .welcome-message {
   text-align: left; /* Centre le message */
   padding: 30px; /* Ajoute de l'espace autour du message */
