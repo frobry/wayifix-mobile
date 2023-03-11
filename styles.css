@@ -408,7 +408,7 @@ main h1 {
 
 .menu-message {
   position: fixed;
-  font-family: Orkney, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 27px;
   z-index: 3;
   text-align: left; /* Centre le message */
