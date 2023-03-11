@@ -406,6 +406,17 @@ main h1 {
   margin-top: 120px;
 }
 
+.menu-message {
+  position: fixed;
+  font-family: Orkney, sans-serif;
+  font-size: 27px;
+  z-index: 3;
+  text-align: left; /* Centre le message */
+  padding: 30px; /* Ajoute de l'espace autour du message */
+  margin-left: -5px;
+  margin-top: 120px;
+}
+
 .animation {
   animation: fade-in 7s;
 }
