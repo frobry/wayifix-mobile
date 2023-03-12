@@ -101,6 +101,13 @@ header {
   }
 }
 
+@font-face {
+  font-family: 'Orkney';
+  src: url('orkney/Orkney-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .text-container {
   margin-left: 3%;
   margin-right: 3%;
