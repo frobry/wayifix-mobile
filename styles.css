@@ -217,7 +217,7 @@ body {
     transform: translatey(0);
   }
   50% {
-    transform: translatey(10px);
+    transform: translatey(50px);
   }
   100% {
     transform: translatey(0);
