@@ -189,15 +189,14 @@ body {
   background-size: cover;
 }
 
-#background-video {
-  height: 100vh;
-  width: 100vw;
-  object-fit: cover;
+.background-photo {
   position: fixed;
-  left: 0;
+  left: -90px;
   right: 0;
   top: 0;
-  bottom: 0;
+  width: 120%;
+  height: 100%;
+  opacity: 80%;
   z-index: -1;
 }
 
