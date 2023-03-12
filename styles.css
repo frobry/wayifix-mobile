@@ -102,8 +102,8 @@ header {
 }
 
 @font-face {
-  font-family: 'Orkney';
-  src: url('orkney/Orkney-Regular.ttf') format('truetype');
+  font-family: Orkney;
+  src: url('orkney/Orkney Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
