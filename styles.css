@@ -183,10 +183,10 @@ body {
 }
 
 @font-face {
-  font-family: "Orkney", sans-serif;
+  font-family: Orkney, sans-serif;
   src: url('orkney/Orkney Regular.ttf') format('truetype');
   font-weight: normal;
-  font-style: none;
+  font-style: normal;
 }
 
 .background-photo {
