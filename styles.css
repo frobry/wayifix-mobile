@@ -118,7 +118,22 @@ header {
   border-radius: 88px;
   color: rgb(200, 200, 200);
   box-shadow: 0px 0px 80px 5px rgba(225, 225, 225, 0.4);
-  font-size: 30px;
+  font-size: calc(4000vw / 1018);
+}
+
+.text-container-2:hover {
+  transform: scale(1.05); /* augmente la taille de l'image de 50% */
+  transition: transform 0.5s ease-in-out, box-shadow 1s;
+  box-shadow: 0px 0px 80px 8px rgba(225, 225, 0, 0.3);
+}
+
+.text-container-2:not(:hover) {
+  transform: scale(1.0); /* augmente la taille de l'image de 50% */
+  transition: transform 0.5s ease-in-out, box-shadow 1s;
+}
+
+.text-container-2 b {
+  font-size: calc(5000vw / 1018);
 }
 
 .text-container-3 {
@@ -133,6 +148,15 @@ header {
   border-radius: 48px;
   color: rgb(200, 200, 200);
   font-size: 30px;
+}
+
+.text-container-big {
+  text-align: left;
+  margin-top: 100px;
+  margin-left: -140px;
+  margin-right: 60px;
+  font-size: calc(4800vw / 1018);
+  color: rgb(210, 210, 210);
 }
 
 .button-container {
@@ -246,11 +270,21 @@ header {
 }
 
 img.logo {
-  margin-left: 30px;
-  width: 220px; /* Redimensionne l'image à 150px de large */
+  clip-path: polygon(0 0, 90% 0, 90% 100%, 0 100%);
+  margin-top: 2px;
+  margin-bottom: -5px;
+  margin-left: 36px;
+  width: 680px; /* Redimensionne l'image à 150px de large */
   height: auto; /* Ajuste automatiquement la hauteur en fonction de la largeur */
   float: left; /* Aligne l'image à gauche de la page */
   box-shadow: 0px 0px 0px #000;
+}
+
+img.side-image {
+  margin-left: 50px;
+  width: 150px;
+  height: auto;
+  box-shadow: none;
 }
 
 header h1 {
@@ -742,8 +776,10 @@ section#services .images-container .service {
 
 .referral-program {
   text-align: left; /* Centre le message */
-  padding: 20px; /* Ajoute de l'espace autour du message */
-  font-size: 27px; /* change la taille de police */
+  padding-left: 200px;
+  padding-top: 20px; /* Ajoute de l'espace autour du message */
+  margin-top: -150px;
+  font-size: calc(4500vw / 1018); /* change la taille de police */
   color: #fff; /* Change la couleur de police */
 }
 
@@ -1230,3 +1266,4 @@ span.tag{
   text-decoration: none;
   color: #5ce1e6;
 }
+
